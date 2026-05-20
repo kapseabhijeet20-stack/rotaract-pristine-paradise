@@ -105,8 +105,8 @@ export default function Hero() {
               {[
                 { number: "16", label: "Board Members", icon: "👥" },
                 { number: "25+", label: "Events Hosted", icon: "🎉" },
-                { number: "5000+", label: "Lives Impacted", icon: "❤️" },
-                { number: "100+", label: "Volunteers", icon: "🤝" },
+                { number: "200+", label: "Lives Impacted", icon: "❤️" },
+                { number: "80+", label: "Volunteers", icon: "🤝" },
               ].map((stat, index) => (
                 <motion.div
                   key={index}

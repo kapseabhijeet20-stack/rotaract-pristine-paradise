@@ -125,10 +125,10 @@ export default function Awards() {
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-5">
             {[
-              { number: "15+", label: "Awards Won", icon: "🏆" },
-              { number: "6+", label: "Years of Excellence", icon: "⭐" },
-              { number: "100+", label: "Projects Completed", icon: "✨" },
-              { number: "5000+", label: "Lives Impacted", icon: "❤️" },
+              { number: "3", label: "Awards Won", icon: "🏆" },
+              { number: "6", label: "Years of Excellence", icon: "⭐" },
+              { number: "200+", label: "Projects Completed", icon: "✨" },
+              { number: "800+", label: "Lives Impacted", icon: "❤️" },
             ].map((stat, index) => (
               <motion.div
                 key={index}
